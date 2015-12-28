@@ -4,10 +4,13 @@ See the Readme.md file for references to the assignment and the original data se
 
 # UCI HAR tidy data set
 The UCI_HAR_tidy.txt file contains the mean values for each group of (activity,subject) as described in the assignment. The dataset includes 6 activities and 30 subjects, leading to 180 such groupings. There were originally 561 features recorded, but only features concerning mean() and std() functions were of interest in this projects, reducing the feature count to 78 in the tidy data set.
+
 Activity names were classified as "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING", following the dataset documentation.
 
 #Variables in the tidy dataset
+
 Activity
+
 Subject
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z           
